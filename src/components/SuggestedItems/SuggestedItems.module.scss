@@ -1,0 +1,77 @@
+.wrapper {
+    color: rgba(22, 24, 35, 0.75);
+    padding: 16px 0;
+    max-width: var(--sidebar-width);
+    position: relative;
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 8px;
+        right: 8px;
+        height: 1px;
+        background-color: var(--light-gray-color);
+        transform: scaleY(0.5);
+    }
+}
+.label {
+    padding: 0 8px 8px 8px;
+    font-weight: 600;
+    line-height: 20px;
+    font-size: 1.4rem;
+}
+.account-item {
+    display: flex;
+    padding: 8px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.avatar {
+    margin-right: 12px;
+}
+
+.info {
+    height: 32px;
+    line-height: 1;
+}
+
+.nickname {
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    color: var(--text-color);
+    font-size: 1.6rem;
+    line-height: 1.375;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 260px;
+    margin-top: -3px;
+}
+
+.name {
+    font-size: 1.2rem;
+    line-height: 15px;
+    font-weight: 400;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 260px;
+}
+
+.more-btn {
+    color: var(--primary-color);
+    font-size: 1.4rem;
+    line-height: 2rem;
+    font-weight: 600;
+    margin-top: 8px;
+    padding: 0 8px;
+}
+
+.sidebar-popper {
+    padding: 0;
+    margin: -8px 0 0 -4px;
+}

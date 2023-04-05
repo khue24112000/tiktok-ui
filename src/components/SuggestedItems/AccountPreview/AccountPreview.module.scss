@@ -1,0 +1,56 @@
+.wrapper {
+    padding: 20px;
+    background-color: var(--white-color);
+    width: 320px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.avatar {
+    width: 44px;
+    height: 44px;
+    cursor: pointer;
+}
+
+.btn {
+    min-width: 106px;
+    font-weight: 600;
+}
+
+.info {
+    color: var(--text-color);
+    cursor: pointer;
+    width: max-content;
+}
+
+.nickname {
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    display: flex;
+    align-items: center;
+}
+
+.name {
+    font-size: 1.4rem;
+    line-height: 2rem;
+    font-weight: 600;
+}
+
+strong {
+    color: var(--text-color);
+    margin-right: 6px;
+    font-size: 1.7rem;
+    line-height: 2rem;
+}
+
+.subcribe {
+    display: flex;
+    align-items: center;
+    gap: 0 12px;
+    margin-top: 8px;
+}
